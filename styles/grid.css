@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-auto-rows: 50px;
+}
+
+.grid-container > div {
+    grid-row-end: span 5;
+}
+
+.grid-container > .grid-element-expanded {
+    grid-column-end: span 2;
+    grid-row-end: span 4;
+}
