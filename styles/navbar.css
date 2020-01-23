@@ -1,0 +1,21 @@
+.navbar-container {
+    display: flex;
+    border-bottom: thin solid #ccc;
+}
+
+.navbar-container .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+.navbar-container ul li {
+    margin-left: 16px;
+}
