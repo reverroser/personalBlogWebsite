@@ -4,6 +4,16 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    color: #222326;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -15,12 +25,17 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
 }
 
-.intro-container {
-    color: #222326;
+.title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
