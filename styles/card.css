@@ -1,3 +1,38 @@
 .card {
-    border: thin solid;
+   
+}
+
+.post-topic-vegan {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin: 40px;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.post-title-vegan {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.post-image-vegan {
+    background-image: url("../assets/vegan-post.jpeg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    max-width: 100%;
+    max-height: 100%;
+     
+}
+
+.post-read-button {
+
 }
