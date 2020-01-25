@@ -15,6 +15,16 @@
     font-size: 24px;
 }
 
+.navbar-avatar {
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    padding: 2px;
+    margin-left: auto;
+    border: dotted 1px #222326; 
+}
+
 .navbar-container ul {
     display: flex;
     list-style: none;
@@ -36,10 +46,15 @@
     margin: 8px;
     color: #222326;
     font-family: 'Roboto', sans-serif;
-    z-index: 1;
+    opacity: .8;
+    transition: opacity .2s ease-in-out;
 }
 
-.navbar-container ul li a:after {
+.navbar-container ul li a:hover {
+    opacity: 1;
+}
+
+/* .navbar-container ul li a:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -61,4 +76,4 @@
     opacity: 1;
     visibility: visible;
     height: 100%;
-}
+} */
