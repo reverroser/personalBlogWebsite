@@ -1,38 +1,35 @@
 .card {
-   
-}
-
-.post-topic-vegan {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    margin: 40px;
-    transform: translate(-50%, -50%);
-    color: white;
-
-}
-
-.post-title-vegan {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.post-image-vegan {
-    background-image: url("../assets/vegan-post.jpeg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 32px;
     background-size: cover;
-    position: relative;
-    z-index: -1;
-    max-width: 100%;
-    max-height: 100%;
-     
+    background-position: center;
+    border-radius: 8px;
 }
 
-.post-read-button {
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    color: #222326;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    width: 110px;
+    height: 36px;
+    border: 0;
+    border-radius: 8px;
+    background: #fff;
 
 }
