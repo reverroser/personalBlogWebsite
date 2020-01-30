@@ -6,13 +6,20 @@
 }
 
 .post-article {
-grid-row-start: 1;
-grid-row-end: 2;
-background: grey;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: justify;
+}
+
+.post-article h3 {
+    font-style: italic;
+}
+
+.post-article p {
+    line-height: 1.5em;   
 }
 
 .post-author {
-grid-row-start: 2;
-grid-row-end: 3;
-background: green;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
