@@ -5,27 +5,23 @@
 
 .post-background-color {
     background-color: #ffff;
-    border-top-right-radius: 6%;
-    box-shadow: 9px -8px 5px -8px #8c8c8c;
 }
 
 .post-title-container{
-    padding: 40px;
     font-family: 'Montserrat', sans-serif;
     color: #222326;
     font-weight: 600;
     font-size: 22px;
-    text-align: center;
 }
 
 .post-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    text-align: center;
 }
 
 .post-container img{
     display: flex;
+    border-radius: 8px;
     width: 100%;
 }
 
@@ -35,5 +31,12 @@
     color: #222326;
     font-size: 10px;
     text-align: center;
+    margin: 0;
 }
 
+/* Medium screens */
+@media(min-width: 600px) {
+    .post-title-container h1 {
+        max-width: 60%;
+    }
+}

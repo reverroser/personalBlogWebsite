@@ -1,14 +1,12 @@
 .post-grid-container {
     display: grid;
     grid-template-rows: auto auto;
-    padding: 40px;
     grid-gap: 24px;
 }
 
 .post-article {
     grid-row-start: 1;
     grid-row-end: 2;
-    text-align: justify;
 }
 
 .post-article h3 {

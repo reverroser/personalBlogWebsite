@@ -1,0 +1,36 @@
+.avatar-author {
+    width: 140px;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.info-author {
+    list-style: none;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+.bio-author {
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.socialmedia-author {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia-author li a img {
+    width: 30px;
+    margin-right: 10px;
+    display: flex
+}
